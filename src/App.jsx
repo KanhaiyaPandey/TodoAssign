@@ -15,7 +15,7 @@ const App = () => {
   };
   return (
     <Provider store={store}>
-      <div className='w-full h-screen flex flex-col items-center gap-10 justify-center text-white '>
+      <div className='w-full h-screen flex flex-col items-center gap-10 justify-center text-white bg-black '>
         <h1 className=' text-5xl font-bold'>Todo List</h1>
         <div className='flex flex-col gap-4'>
         <TodoForm />
